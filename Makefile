@@ -36,5 +36,5 @@ clean:
 	rm -rf $(BUILD_DIR)
 
 release:
-	@echo "$(YELLOW)Releasing project$(CLEAR)
+	@echo "$(YELLOW)Releasing project$(CLEAR)"
 	release
