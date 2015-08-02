@@ -180,3 +180,9 @@ Anyway, that's more than enough of me pontificating.
 With best wishes for the future,
 
 Iain M Banks (Sun-Earther Iain El-Bonko Banks of North Queensferry)
+
+*This article was posted to newsgroup rec.arts.sf.written on 10 Aug 1994 on behalf of Iain M Banks by Ken MacLeod kenm@festival.ed.ac.uk.
+
+Copyright 1994 Iain M Banks
+Commercial use only by permission.
+Other uses, distribution, reproduction, tearing to shreds etc are freely encouraged provided the source is acknowledged.*
