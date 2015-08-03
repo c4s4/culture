@@ -26,10 +26,8 @@ pdf:
 epub:
 	@echo "$(YELLOW)Generating epub format$(CLEAR)"
 	mkdir -p $(BUILD_DIR)
-	cp article.md $(BUILD_DIR)/
-	sed -i -e 's/% author: /% /g; s/% title: /% /g' $(BUILD_DIR)/article.md
-	pandoc -f markdown -t epub -o "$(BUILD_DIR)/$(NAME).epub" $(BUILD_DIR)/article.md
-	rm $(BUILD_DIR)/article.md
+	md2epub article.md
+	mv article.epub "$(BUILD_DIR)/$(NAME).epub"
 
 clean:
 	@echo "$(YELLOW)Cleaning generated files$(CLEAR)"
