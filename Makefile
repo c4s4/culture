@@ -20,16 +20,12 @@ help:
 pdf:
 	@echo "$(YELLOW)Generating pdf format$(CLEAR)"
 	mkdir -p $(BUILD_DIR)
-	md2pdf article.md
-	mv article.pdf "$(BUILD_DIR)/$(NAME).pdf"
+	md2pdf -o "$(BUILD_DIR)/$(NAME).pdf" article.md
 
 epub:
 	@echo "$(YELLOW)Generating epub format$(CLEAR)"
 	mkdir -p $(BUILD_DIR)
-	cp article.md $(BUILD_DIR)/
-	sed -i -e 's/% author: /% /g; s/% title: /% /g' $(BUILD_DIR)/article.md
-	pandoc -f markdown -t epub -o "$(BUILD_DIR)/$(NAME).epub" $(BUILD_DIR)/article.md
-	rm $(BUILD_DIR)/article.md
+	pandoc -o "$(BUILD_DIR)/$(NAME).epub" article.md
 
 clean:
 	@echo "$(YELLOW)Cleaning generated files$(CLEAR)"
