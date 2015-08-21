@@ -1,5 +1,9 @@
 # Semantic changelog: https://github.com/c4s4/changelog
 
+- version: 1.0.1
+  date:    2015-08-21
+  summary: Using standard Pandoc metadata format
+
 - version: 1.0.0
   date:    2015-08-02
   summary: First release
