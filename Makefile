@@ -20,14 +20,12 @@ help:
 pdf:
 	@echo "$(YELLOW)Generating pdf format$(CLEAR)"
 	mkdir -p $(BUILD_DIR)
-	md2pdf article.md
-	mv article.pdf "$(BUILD_DIR)/$(NAME).pdf"
+	md2pdf -o "$(BUILD_DIR)/$(NAME).pdf" article.md
 
 epub:
 	@echo "$(YELLOW)Generating epub format$(CLEAR)"
 	mkdir -p $(BUILD_DIR)
-	md2epub article.md
-	mv article.epub "$(BUILD_DIR)/$(NAME).epub"
+	pandoc -o "$(BUILD_DIR)/$(NAME).epub" article.md
 
 clean:
 	@echo "$(YELLOW)Cleaning generated files$(CLEAR)"

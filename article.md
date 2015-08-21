@@ -1,5 +1,7 @@
-% title: A Few Notes on the Culture
-% author: Iain M. Banks
+---
+title:  A Few Notes on the Culture
+author: Iain M. Banks
+---
 
 FIRSTLY, AND MOST IMPORTANTLY: THE CULTURE DOESN'T REALLY EXIST. IT ONLY EXISTS IN MY MIND AND THE MINDS OF THE PEOPLE WHO'VE READ ABOUT IT.
 
