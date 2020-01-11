@@ -1,0 +1,7 @@
+# NeON Build File (http://github.com/c4s4/neon)
+
+extends: book
+
+properties:
+  TITLE:    'A Few Notes on the Culture'
+  AUTHOR:   'Iain M. Banks'
